@@ -1,0 +1,247 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Inter", serif;
+    color: #666;
+}
+.header{
+    z-index: 2;
+    height: 10vh;
+    width: 100%;
+    border-bottom: 2px solid whitesmoke;
+    position: fixed;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+
+    
+
+}
+#logo{
+    width: 9%;
+}
+.header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #666;
+    display: inline;
+    margin-left: 50px;
+    text-align: right;
+    font-weight: 400;
+    font-family: "Inter", serif;
+}
+.menubar{
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;
+}
+.header a:hover{
+    color: blueviolet;
+}
+.first img{
+    width: 31%;
+    margin-top: 8% ;
+    margin-left: 33.5%;
+}
+.first h1{
+    text-align: center;
+    font-size: 2.75rem;
+    line-height: 1.30;
+    font-weight: 500;
+    font-family: inherit;
+    color: rgb(68, 64, 64);
+    margin-top: 50px;
+}
+.first p{
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(68, 64, 64);
+    font-size:larger;
+}
+.first button{
+    margin-left: 46%;
+    margin-top: 35px;
+    padding: 10px 22px;
+    font-weight: 500;
+    color: rgb(68, 64, 64);
+    font-size: large;
+    font-family: inherit;
+    background-color: #387ed1;
+    border: none;
+    color: aliceblue;
+}
+.container{
+    padding-top: 120px;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+.align{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    width: 30%;
+    height: 30%;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.text{
+    width: 48%;
+   
+}
+h2{
+    font-size: 2rem;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    font-weight: 500;
+    color: #424242;
+    margin-bottom: 20px;
+   
+}
+p{
+    font-family: inherit;
+    font-weight: 500;
+    color: #424242;
+    display: block;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+ul .list{
+    padding-left: 20px;
+    display: block;
+    color: #424242;
+    list-style-type: disc;
+    padding-inline-start: 40px;
+    font-family: inherit;
+    font-size: 16px;
+}
+.column2{
+    width: 48%;
+    box-sizing: border-box;
+    padding-left: 100px;
+    color:#424242 ;
+}
+
+
+.row {
+    display: flex;
+}
+ul li, .column2, .column1{
+    display: inline;
+    color:#424242 ;
+}
+ul li {
+    list-style: disc !important;
+    padding-bottom: 15px;
+    color:#424242 ;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    color:#424242 ;
+}
+img{
+    max-width: 100%;
+}
+.container3{
+    margin: 150px;
+    
+}
+.container3 h2{
+    text-align: center;
+}
+.container3 h5{
+    text-align: center;
+    margin-top: 10px;
+    font-size: large;
+    color: #424242;
+    font-weight: 500;
+    line-height:1.5;
+}
+.container3 a{
+    text-decoration: none;
+    padding-left: 45%;
+    color: #387ed1;
+}
+.pricing{
+    display: flex;
+    justify-content: space-around;
+    width: 98vw;
+    padding: 100px 100px;
+}
+.column3 {
+    display: inline;
+}
+.column3, 
+.column3 h2,
+.column3 p {
+    display: inline;
+}
+
+.column4 {
+    display: flex;
+    border: 1px solid black;
+}
+.column4 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    width: 50%;
+    border: 1px solid black;
+}
+.column4 div h1 {
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+/* container5 */
+.container5 div ,.container5 div h1,p{
+    display: inline;
+}
+.container5{
+    display: flex;
+    line-height: 2;
+    font-family: inherit;
+    font-size: medium;
+}
+.container5 .text {
+    margin: 30px 0 0 30px;
+}
+.landing4{
+    width: 50%;
+}
+.create-account {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.create-account h1 {
+    font-size: xx-large;
+}
+.create-account a {
+    padding: 10px 40px;
+    background-color: rgb(56, 56, 206);
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+}
