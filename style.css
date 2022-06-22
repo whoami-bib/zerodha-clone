@@ -48,10 +48,13 @@ body{
 .header a:hover{
     color: blueviolet;
 }
+.first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .first img{
     width: 31%;
-    margin-top: 8% ;
-    margin-left: 33.5%;
 }
 .first h1{
     text-align: center;
@@ -60,7 +63,6 @@ body{
     font-weight: 500;
     font-family: inherit;
     color: rgb(68, 64, 64);
-    margin-top: 50px;
 }
 .first p{
     margin-top: 20px;
@@ -69,7 +71,6 @@ body{
     font-size:larger;
 }
 .first button{
-    margin-left: 46%;
     margin-top: 35px;
     padding: 10px 22px;
     font-weight: 500;
